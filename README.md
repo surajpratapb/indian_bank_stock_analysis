@@ -7,7 +7,7 @@
 
 ### Code and Resources Used
 - Python Version: 3.7
-- Packages: pandas, numpy, sklearn, matplotlib, seaborn, cufflinks, datareader,plotly
+- Packages: pandas, numpy,matplotlib, seaborn, cufflinks, datareader,plotly
 - Yahoo Finance : https://in.finance.yahoo.com/
 - Udemy.com : https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/
 
@@ -40,7 +40,8 @@ Then I combined all the pulled data into a single dataframe and named it bank_st
 I created another dataframe named returns which used the returns formula to calucate and store the returns of all the bank stocks.
  <p align="center">
   <img src="assets/Returns_formula.JPG">
- </p>                                               
+ </p>   
+ 
  Where Pt = Price of Stock at time 't' 
  <p align="center">
   <img src="assets/return_table.JPG">
@@ -49,8 +50,8 @@ I created another dataframe named returns which used the returns formula to calu
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from my EDA.
 
 - The Min And Max stock retuns
-<img src="assets/min_retunrs.JPG"><img src="assets/max_returns.JPG">
-   Intrestlingly AXIS bank's best and worst returns in over a decade were between 2008-10-10 & 2008-10-13
+<img src="assets/min_max.JPG">
+  - Intrestlingly AXIS bank's best and worst returns in over a decade were between 2008-10-10 & 2008-10-13
    
  - I also plotted the distribution of the returns of SBI & HDFC banks. Both banks have similar devations from average and considered the most stable banks in India.
   <img src="assets/SBI_HDFC_returns.JPG"> 
@@ -71,7 +72,7 @@ I looked at the distributions of the data and the value counts for the various c
   - Refer to the ipynb file.
   
   ### Credits 
-  - ![Yahoo Finance](https://in.finance.yahoo.com/)
-  - ![Jose Portilla](https://www.udemy.com/user/joseportilla/)
-  - ![Wikipedia](https://en.wikipedia.org/wiki/Global_financial_crisis_in_2009#:~:text=In%20March%202009%2C%20Blackstone%20Group,by%20the%20global%20financial%20crisis.&text=On%20June%2022%20the%20World,since%20the%20second%20world%20war.)
+  -  ![Yahoo Finance](https://in.finance.yahoo.com/)
+  -  ![Jose Portilla](https://www.udemy.com/user/joseportilla/)
+  -  ![Wikipedia](https://en.wikipedia.org/wiki/Global_financial_crisis_in_2009#:~:text=In%20March%202009%2C%20Blackstone%20Group,by%20the%20global%20financial%20crisis.&text=On%20June%2022%20the%20World,since%20the%20second%20world%20war.)
   
