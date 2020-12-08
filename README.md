@@ -49,17 +49,17 @@ I created another dataframe named returns which used the returns formula to calu
 
 I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from my EDA.
 
-- The Min And Max stock retuns
+- The Min And Max stock returns: 
 <img src="assets/min_max.JPG">
-  - Intrestlingly AXIS bank's best and worst returns in over a decade were between 2008-10-10 & 2008-10-13
+- Intrestlingly AXIS bank's best and worst returns in over a decade were between 2008-10-10 & 2008-10-13
    
- - I also plotted the distribution of the returns of SBI & HDFC banks. Both banks have similar devations from average and considered the most stable banks in India.
+- I also plotted the distribution of the returns of SBI & HDFC banks. Both banks have similar devations from average and considered the most stable banks in India.
   <img src="assets/SBI_HDFC_returns.JPG"> 
   
-  - Also plotted the Simple Moving Average plot for Punjab National Banks in 2018 . A huge drop is noted relating to the controversial 2018 PNB scam.
+- Also plotted the Simple Moving Average plot for Punjab National Banks in 2018 . A huge drop is noted relating to the controversial 2018 PNB scam.
   <img src="assets/PNB2018.JPG"> 
   
-  - A Correlation heatmap is plotted to show all the diffrent relationships between stock close prices
+ - A Correlation heatmap is plotted to show all the diffrent relationships between stock close prices
   <img src="assets/corr_heatmap.JPG"> 
   
   ### Conclusion
