@@ -8,8 +8,8 @@
 ### Code and Resources Used
 - Python Version: 3.7
 - Packages: pandas, numpy,matplotlib, seaborn, cufflinks, datareader,plotly
-- Yahoo Finance : https://in.finance.yahoo.com/
-- Udemy.com : https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/
+- ![Yahoo Finance](https://in.finance.yahoo.com/)
+- ![Udemy.com](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
 
 ### Data Collection
 Used python's datareader package to read stock data directly from Yahoo Finance's Website. All stocks data is from National Stock Exchange(NSE). 
